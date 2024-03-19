@@ -38,7 +38,7 @@ header a {
     font-size: 110%;
 }
 
-#menu>li {
+#menu > li {
     margin: 15px 0;
 
 }
@@ -64,16 +64,57 @@ nav {
 }
 
 .nav-toggle-label {
-    font-size: 2rem;
+    font-size: 25px;
 }
 
 /* Main */
 main {
-    background-color: lightcoral;
+    background-color: #ffffff;
     flex: 1 0 auto;
+    margin-top: 49px;
 }
 
 /* Footer */
 footer {
     background-color: lightgreen;
+}
+
+/* Media query: large or landscape phones (576px and up) */
+@media screen and (min-width: 576px) {
+    
+}
+
+/* Media query: tablets and larger (768px and up) */
+@media screen and (min-width: 768px) {
+    nav {
+        display:block;
+        position: relative;
+        box-shadow: none;
+        width: fit-content;
+    }
+
+    #menu {
+        display: flex;
+    }
+
+    #menu > li {
+        padding-left: 2rem;
+        transition: 0.3s;
+    }    
+
+    .nav-toggle-label {
+        display: none;
+    }
+}
+
+/* Large devices (laptops and desktops, 992px and up) */
+@media screen and (min-width: 992px) {
+    #menu li:hover {
+        font-size: 120%;
+    }
+}
+
+/* Large devices (laptops and desktops, 1200 and up) */
+@media screen and (min-width: 1200px) {
+    
 }
