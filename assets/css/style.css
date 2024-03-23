@@ -90,7 +90,23 @@ width: 100%;
 
 /* Footer */
 footer {
-    background-color: lightgreen;
+    background-color: #ebcbae;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+#social-networks {
+    display: flex;   
+    list-style-type: none;
+    justify-content: space-around;
+    padding: 15px 0;
+    
+}
+
+#social-networks i {
+    color: #3a3a3a;
+    font-size: 200%;
 }
 
 /* Media query: large or landscape phones (576px and up) */
