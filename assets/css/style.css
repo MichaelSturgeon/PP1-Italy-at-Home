@@ -74,6 +74,19 @@ main {
     margin-top: 49px;
 }
 
+/* Hero section */
+#hero {
+display: flex;
+position: relative;
+}
+
+#hero > video {
+position: absolute;
+top: 0;
+left: 0;
+width: 100%;
+}
+
 /* Footer */
 footer {
     background-color: lightgreen;
