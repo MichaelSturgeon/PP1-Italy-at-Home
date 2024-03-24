@@ -14,6 +14,10 @@ body {
     font-family: 'Montserrat Alternates', sans-serif;
 }
 
+.hidden {
+    display: none;
+}
+
 /* Header */
 header {
     background-color: #ebcbae;
@@ -70,6 +74,8 @@ nav {
 
 /* Main */
 main {
+    display: flex;
+    flex-direction: column;
     background-color: #ffffff;
     flex: 1 0 auto;
     margin-top: 70px;
@@ -84,6 +90,40 @@ width: 100%;
 }
 
 /* Signup section */
+#signup-form {
+    text-align: center;
+    width: 100%;
+    background-color: rgb(220, 220, 220);
+    padding: 20px 10px;
+
+}
+
+#email-address {
+    background-color:#ffffff;
+    margin-top: 20px; 
+    border-style: none;
+    border-radius: 10px;
+    padding: 5px 8px;
+    font-size: 120%;
+    font-family: inherit;
+}
+
+input::placeholder {
+    color: #3a3a3a;
+    text-align: center;
+}
+
+#form-submit-button {
+    background-color:#3a3a3a;
+    color: #fafafa;
+    margin-top: 20px;
+    border-style: none;
+    border-radius: 10px;
+    padding: 5px 77px;
+    font-size: 120%;
+    font-family: inherit;
+    
+}
 
 /* Footer */
 footer {
