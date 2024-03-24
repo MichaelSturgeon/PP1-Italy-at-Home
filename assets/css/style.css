@@ -100,7 +100,7 @@ width: 100%;
 
 #email-address {
     background-color:#ffffff;
-    margin-top: 20px; 
+    margin-top: 15px; 
     border-style: none;
     border-radius: 10px;
     padding: 5px 8px;
@@ -116,7 +116,7 @@ input::placeholder {
 #form-submit-button {
     background-color:#3a3a3a;
     color: #fafafa;
-    margin-top: 20px;
+    margin-top: 10px;
     border-style: none;
     border-radius: 10px;
     padding: 5px 77px;
@@ -148,7 +148,9 @@ footer {
 
 /* Media query: large or landscape phones (576px and up) */
 @media screen and (min-width: 576px) {
-    
+    #form-submit-button {
+        margin:15px 0 0 10px;        
+    }    
 }
 
 /* Media query: tablets and larger (768px and up) */
