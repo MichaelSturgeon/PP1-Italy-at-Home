@@ -183,7 +183,22 @@ footer {
 @media screen and (min-width: 576px) {
     #form-submit-button {
         margin:15px 0 0 10px;        
-    }    
+    }
+    
+    #about {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+    }
+
+    #about-img{
+        flex: 1 0 auto;
+    }
+
+    #about-text {
+        width: 300px;
+        text-align: right;
+    }
 }
 
 /* Media query: tablets and larger (768px and up) */
