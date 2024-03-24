@@ -43,8 +43,9 @@ header a {
     font-size: 110%;
 }
 
-#menu > li {
+#menu li {
     margin: 15px 0;
+    transition-duration: 0.8s;
 
 }
 
@@ -122,6 +123,7 @@ input::placeholder {
     padding: 5px 77px;
     font-size: 120%;
     font-family: inherit;
+    transition-duration: 0.8s;
     
 }
 
@@ -169,8 +171,7 @@ footer {
     }
 
     #menu > li {
-        padding-left: 2rem;
-        transition: 0.3s;
+        margin-left: 2rem;
     }    
 
     .nav-toggle-label {
@@ -181,7 +182,14 @@ footer {
 /* Large devices (laptops and desktops, 992px and up) */
 @media screen and (min-width: 992px) {
     #menu li:hover {
-        font-size: 120%;
+        color: #fafafa;
+        cursor: pointer;
+    }
+
+    #form-submit-button:hover {
+        background-color:#ebcbae;
+        color: #3a3a3a;
+        cursor: pointer;
     }
 }
 
