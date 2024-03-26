@@ -102,10 +102,6 @@ main {
     margin-bottom: 5px;   
 }
 
-#about-text h2{
-  text-align: center;    
-}
-
 #about-img {
     background: url("../images/pexels-edgar-santos-t-16810621.jpg") no-repeat center center/cover;
     height: 80vw;
@@ -114,6 +110,16 @@ main {
     max-width: 300px;
     max-height: 300px;
     margin-bottom: 10px;
+    -webkit-transform: scaleX(-1);
+    transform: scaleX(-1);
+}
+
+#about-text {
+    width: 90vw;
+}
+
+#about-text h2{
+  text-align: center;    
 }
 
 /* Signup section */
@@ -188,7 +194,7 @@ footer {
     #about {
         display: flex;
         flex-direction: row;
-        justify-content: space-around;
+        justify-content: space-evenly;
     }
 
     #about-img{
@@ -196,11 +202,10 @@ footer {
     }
 
     #about-text {
-        width: 300px;
-        text-align: right;
+        text-align:right;
+        width: 45%;
     }
 }
-
 /* Media query: tablets and larger (768px and up) */
 @media screen and (min-width: 768px) {
     /* Header */
