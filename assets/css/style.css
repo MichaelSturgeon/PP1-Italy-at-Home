@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat+Alternates:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 
+/* General */
 * {
     padding: 0;
     margin: 0;
@@ -12,6 +13,10 @@ body {
     flex-direction: column;
     color: #3a3a3a;
     font-family: 'Montserrat Alternates', sans-serif;
+}
+
+p {
+    font-size: 110%;
 }
 
 .hidden {
@@ -99,7 +104,7 @@ main {
     display:flex;
     flex-direction: column;
     align-items: center;
-    margin-bottom: 5px;   
+    margin-bottom: 5px;
 }
 
 #about-img {
@@ -203,7 +208,7 @@ footer {
 
     #about-text {
         text-align:right;
-        width: 45%;
+        width: 50%;
     }
 }
 /* Media query: tablets and larger (768px and up) */
@@ -228,19 +233,28 @@ footer {
 
     .nav-toggle-label {
         display: none;
-    }
-
-    
-
+    }  
 }
 
 /* Large devices (laptops and desktops, 992px and up) */
 @media screen and (min-width: 992px) {
+    /* General */
+    p {
+        font-size: 120%;
+    }
+
+    /* Header */
     #menu li:hover {
         color: #fafafa;
         cursor: pointer;
     }
 
+    /* About section */
+    #about-text {
+        width: 60%;
+    }
+    
+    /* Signup section */
     #form-submit-button:hover {
         background-color:#ebcbae;
         color: #3a3a3a;
@@ -250,5 +264,9 @@ footer {
 
 /* Large devices (laptops and desktops, 1200 and up) */
 @media screen and (min-width: 1200px) {
+    /* General */
+    p {
+        font-size: 140%;
+    }
     
 }
