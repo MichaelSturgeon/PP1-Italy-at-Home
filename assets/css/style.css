@@ -19,9 +19,8 @@ p {
     font-size: 110%;
 }
 
-hr {
-    border: 1px solid #000000;
-    margin:5px 5px;
+.active {
+    font-size: 125%;
 }
 
 .hidden {
@@ -64,10 +63,6 @@ header a {
 }
 
 /* Navbar */
-#nav-toggle:checked {
-
-}
-
 nav {
     position: absolute;
     background-color: #000000;
@@ -98,6 +93,12 @@ main {
     background-color: #ffffff;
     flex: 1 0 auto;
     margin-top: 70px;
+}
+
+
+main hr {
+    border: 1px solid #000000;
+    margin:5px 5px;
 }
 
 /* Hero section */
@@ -243,9 +244,22 @@ footer {
     font-size: 200%;
 }
 
+#webpage-links {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    list-style-type: none;
+    margin: 10px 0;
+}
+
+#webpage-links a{
+    text-decoration: none;
+    color: #3a3a3a;
+}
+
 footer p {
-    color: #fafafa;
-    font-size: 1rem;
+    color: #3a3a3a;
+    font-size: 0.8rem;
 }
 
 /* Media query: large or landscape phones (576px and up) */
