@@ -34,7 +34,7 @@
 
         <nav>
             <ul id="menu">
-                <li><a href="#hero">About</a></li>
+                <li><a href="#about">About</a></li>
                 <li><a href="#recipes">Recipes</a></li>
                 <li><a href="#signup">Sign Up</a></li>
             </ul>
@@ -45,10 +45,10 @@
     <main>
         <!-- Hero section -->
         <section id="hero">
+            <h2 class="hidden">Hero</h2>
             <video autoplay loop muted controls>
-                <source src="assets/videos/production_id_4058085 (1080p).mp4" type="video/mp4">
+                <source src="assets/videos/hero-video.mp4" type="video/mp4">
                 <p>Your browser doesn't support HTML5 video></p>
-                </source>
             </video>
         </section>
 
@@ -75,7 +75,7 @@
         <section id="recipes">
             <h2>Recipes</h2>
             <div id="recipe-buttons">
-                <button id="starters-button">Starters</button>
+                <button id="sides-button">Sides</button>
                 <button id="mains-button">Mains</button>
                 <button id="desserts-button">Desserts</button>
             </div>
@@ -86,7 +86,7 @@
             <form id="signup-form" method="POST" action="https://formdump.codeinstitute.net">
                 <h2>Newsletter</h2>
                 <p>Subscribe for delicious recipes and amazing offers!</p>
-                <label class="hidden" for="email_address">Email Address</label>
+                <label class="hidden" for="email-address">Email</label>
                 <input id="email-address" type="text" name="email_address" required placeholder="Email Address">
                 <button id="form-submit-button" type="submit">Let's Cook!</button>
             </form>
