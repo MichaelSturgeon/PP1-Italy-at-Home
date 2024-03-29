@@ -19,8 +19,22 @@ p {
     font-size: 110%;
 }
 
+a {
+    text-decoration: none;
+}
+
+h2 {
+    background-color: #000000;
+    color: #fafafa;
+}
+
+h3 {
+    background-color: rgb(220, 220, 220);
+    margin-bottom: 5px;
+}
+
 .active {
-    font-size: 125%;
+    color: #fafafa;
 }
 
 .hidden {
@@ -43,10 +57,10 @@ header {
 
 header h1 {
     font-style: italic;
+    font-size:1.6rem;
 }
 
 header a {
-    text-decoration: none;
     color: inherit;
 }
 
@@ -58,7 +72,7 @@ header a {
 }
 
 #menu li {
-    margin:10px 0;
+    margin: 10px 0;
     transition-duration: 0.6s;
 }
 
@@ -66,6 +80,7 @@ header a {
 nav {
     position: absolute;
     background-color: #000000;
+    color: #3a3a3a;
     width: 100%;
     left: 0;
     padding: 0 1rem;
@@ -98,7 +113,7 @@ main {
 
 main hr {
     border: 1px solid #000000;
-    margin:5px 0;
+    margin: 5px 0;
     width: 100%;
 }
 
@@ -106,7 +121,8 @@ main hr {
 #hero {
     margin-bottom: 5px;
 }
-#hero > video {
+
+#hero>video {
     position: relative;
     top: 0;
     left: 0;
@@ -116,14 +132,10 @@ main hr {
 /* About section */
 #about {
     padding: 10px;
-    display:flex;
+    display: flex;
     flex-direction: column;
     text-align: center;
-    
-}
-#about h2{
-  background-color: #000000;
-  color: #fafafa;
+
 }
 
 #about-content {
@@ -149,58 +161,54 @@ main hr {
 /* Recipe section */
 #recipes {
     padding: 10px;
-    display:flex;
+    display: flex;
     flex-direction: column;
-    text-align: center; 
+    text-align: center;    
 }
 
-#recipes h2{
-    background-color: #000000;
-    color: #fafafa;
-  }
-
-#recipe-buttons button {
+#sides-banner,
+#mains-banner,
+#desserts-banner {
     width: 100%;
     height: 80px;
-    font-size: 120%;
-    font-family: inherit;
-    color: #fafafa;
-    border: none;
-    text-transform: uppercase;
 }
 
-#recipe-buttons h3 {
-    background-color: rgb(220, 220, 220);
-    margin-bottom: 10px;
+#sides-recipes,
+#mains-recipes,
+#desserts-recipes {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;       
 }
 
-#sides-button {
-    background: url("../images/recipe-button-sides.jpg") no-repeat center center/cover;
+#sides-recipes div,
+#mains-recipes div,
+#desserts-recipes div {
+    margin: 5px;
+    width: 200px;
+    height: 250px;    
 }
 
-#mains-button {
-    background: url("../images/recipe-button-mains.jpg") no-repeat center center/cover;
+#recipes p {
+    font-size: 1rem; 
 }
 
-#desserts-button {
-    background: url("../images/recipe-button-dessert.jpg") no-repeat center center/cover;
+#recipes img {
+    height: 200px;
+    width: 100%;
 }
+
 
 /* Signup section */
 #signup {
     padding: 10px;
-    display:flex;
+    display: flex;
     flex-direction: column;
     text-align: center;
 }
 
-#signup h2 {
-    background-color: #000000;
-    color: #fafafa;    
-}
-
 #signup-form {
-    
+
     width: 100%;
     background-color: rgb(220, 220, 220);
     padding: 20px 0;
@@ -208,8 +216,8 @@ main hr {
 }
 
 #email-address {
-    background-color:#fafafa;
-    margin-top: 15px; 
+    background-color: #fafafa;
+    margin-top: 15px;
     border-style: none;
     border-radius: 10px;
     padding: 5px 0;
@@ -223,7 +231,7 @@ input::placeholder {
 }
 
 #form-submit-button {
-    background-color:#000000;
+    background-color: #000000;
     color: #fafafa;
     margin-top: 10px;
     border-style: none;
@@ -232,7 +240,7 @@ input::placeholder {
     font-size: 120%;
     font-family: inherit;
     transition-duration: 0.6s;
-    
+
 }
 
 /* Footer */
@@ -244,11 +252,11 @@ footer {
 }
 
 #social-networks {
-    display: flex;   
+    display: flex;
     list-style-type: none;
     justify-content: space-around;
     padding: 15px 0;
-    
+
 }
 
 #social-networks i {
@@ -264,8 +272,7 @@ footer {
     margin: 10px 0;
 }
 
-#webpage-links a{
-    text-decoration: none;
+#webpage-links a {
     color: #3a3a3a;
 }
 
@@ -276,8 +283,8 @@ footer p {
 
 /* Media query: large or landscape phones (576px and up) */
 @media screen and (min-width: 576px) {
-    
-    
+
+
     #about-content {
         display: flex;
         flex-direction: row;
@@ -285,19 +292,21 @@ footer p {
     }
 
     #about-text {
-        text-align:right;
+        text-align: right;
         width: 50%;
     }
-    
+
     #form-submit-button {
-        margin:15px 0 0 10px;        
+        margin: 15px 0 0 10px;
     }
 }
+
 /* Media query: tablets and larger (768px and up) */
 @media screen and (min-width: 768px) {
+
     /* Header */
     nav {
-        display:block;
+        display: block;
         position: relative;
         top: 0;
         right: 0;
@@ -310,23 +319,25 @@ footer p {
     #menu {
         display: flex;
         height: 100%;
-        align-content: inherit;
     }
 
-    #menu > li {
+    #menu>li {
         margin: 0;
         padding: 0 1rem;
         height: 100%;
-        align-content: inherit;
-    }    
+        display: flex;
+        align-items: center;
+
+    }
 
     .nav-toggle-label {
         display: none;
-    }  
+    }
 }
 
 /* Large devices (laptops and desktops, 992px and up) */
 @media screen and (min-width: 992px) {
+
     /* General */
     p {
         font-size: 120%;
@@ -349,26 +360,25 @@ footer p {
         flex-direction: row;
     }
 
-    #recipe-buttons button {
+    #sides-banner,
+    #mains-banner,
+    #desserts-banner {
         height: 200px;
+
     }
 
-    #mains-button {
-        margin: 0 10px;
-    }
-    
     /* Signup section */
     #form-submit-button:hover {
-        background-color:#3a3a3a;
+        background-color: #3a3a3a;
         cursor: pointer;
     }
 }
 
 /* Large devices (laptops and desktops, 1200 and up) */
 @media screen and (min-width: 1200px) {
+
     /* General */
     p {
         font-size: 140%;
     }
-    
 }
