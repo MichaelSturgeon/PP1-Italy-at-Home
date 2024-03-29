@@ -57,7 +57,7 @@ header {
 
 header h1 {
     font-style: italic;
-    font-size:1.6rem;
+    font-size: 1.6rem;
 }
 
 header a {
@@ -163,34 +163,27 @@ main hr {
     padding: 10px;
     display: flex;
     flex-direction: column;
-    text-align: center;    
+    text-align: center;
 }
 
-#sides-banner,
-#mains-banner,
-#desserts-banner {
-    width: 100%;
-    height: 80px;
-}
-
-#sides-recipes,
+#starters-recipes,
 #mains-recipes,
 #desserts-recipes {
     display: flex;
     flex-wrap: wrap;
-    justify-content: center;       
+    justify-content: center;
 }
 
-#sides-recipes div,
+#starters-recipes div,
 #mains-recipes div,
 #desserts-recipes div {
     margin: 5px;
     width: 200px;
-    height: 250px;    
+    height: 250px;
 }
 
 #recipes p {
-    font-size: 1rem; 
+    font-size: 1rem;
 }
 
 #recipes img {
@@ -204,19 +197,18 @@ main hr {
 /* Signup section */
 #signup {
     padding: 10px;
-    display: flex;
-    flex-direction: column;
     text-align: center;
 }
 
 #signup-form {
-
-    width: 100%;
+    display: flex;
+    flex-direction: column;
     background-color: rgb(220, 220, 220);
     padding: 20px 0;
 
 }
-
+#first-name,
+#last-name,
 #email-address {
     background-color: #fafafa;
     margin-top: 15px;
@@ -242,7 +234,6 @@ input::placeholder {
     font-size: 120%;
     font-family: inherit;
     transition-duration: 0.6s;
-
 }
 
 /* Footer */
@@ -258,7 +249,6 @@ footer {
     list-style-type: none;
     justify-content: space-around;
     padding: 15px 0;
-
 }
 
 #social-networks i {
@@ -296,10 +286,6 @@ footer p {
     #about-text {
         text-align: right;
         width: 50%;
-    }
-
-    #form-submit-button {
-        margin: 15px 0 0 10px;
     }
 }
 
@@ -354,19 +340,6 @@ footer p {
     /* About section */
     #about-text {
         width: 60%;
-    }
-
-    /* Recipe section */
-    #recipe-buttons {
-        display: flex;
-        flex-direction: row;
-    }
-
-    #sides-banner,
-    #mains-banner,
-    #desserts-banner {
-        height: 200px;
-
     }
 
     /* Signup section */
