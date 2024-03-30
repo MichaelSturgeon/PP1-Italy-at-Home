@@ -15,20 +15,18 @@ body {
     font-family: 'Montserrat Alternates', sans-serif;
 }
 
-p {
-    font-size: 110%;
-}
-
 a {
     text-decoration: none;
 }
 
 h2 {
+    text-align: center;
     background-color: #000000;
     color: #fafafa;
 }
 
 h3 {
+    text-align: center;
     background-color: rgb(220, 220, 220);
     margin-bottom: 5px;
 }
@@ -134,7 +132,7 @@ main hr {
     padding: 10px;
     display: flex;
     flex-direction: column;
-    text-align: center;
+    text-align: justify;
 
 }
 
@@ -158,7 +156,7 @@ main hr {
     width: 90vw;
 }
 
-/* Recipe section */
+/* Recipes section */
 #recipes {
     padding: 10px;
     display: flex;
@@ -166,24 +164,21 @@ main hr {
     text-align: center;
 }
 
-#starters-recipes,
-#mains-recipes,
-#desserts-recipes {
+#starters-links,
+#mains-links,
+#desserts-links {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
+    margin-bottom: 10px;
 }
 
-#starters-recipes div,
-#mains-recipes div,
-#desserts-recipes div {
+#starters-links div,
+#mains-links div,
+#desserts-links div {
     margin: 10px;
     width: 200px;
     height: 250px;
-}
-
-#recipes p {
-    font-size: 1rem;
 }
 
 #recipes img {
@@ -236,7 +231,38 @@ input::placeholder {
     transition-duration: 0.6s;
 }
 
+/* Recipe info section */
+#recipe-info {
+    padding: 10px;
+    display: flex;
+    flex-direction: column;    
+}
 
+#recipe-info li {
+    margin: 0 0 15px 15px;
+}
+
+#recipe-img {
+    background: url("../images/bruschetta.jpg") no-repeat center center/cover;
+    height: 300px;
+    width: 100%;
+    max-height: 300px;
+    max-width: 300px;
+    margin-bottom: 10px;
+}
+
+#about-recipe {
+    margin-bottom: 10px;
+    text-align: justify;
+}
+
+#recipe-ingredients {
+    margin-bottom: 10px;
+}
+
+#recipe-method {
+    margin-bottom: 10px;
+}
 
 /* Footer */
 footer {
@@ -244,6 +270,8 @@ footer {
     display: flex;
     flex-direction: column;
     text-align: center;
+    height: 200px;
+    color: #3a3a3a;
 }
 
 #social-networks {
@@ -270,15 +298,8 @@ footer {
     color: #3a3a3a;
 }
 
-footer p {
-    color: #3a3a3a;
-    font-size: 0.8rem;
-}
-
 /* Media query: large or landscape phones (576px and up) */
 @media screen and (min-width: 576px) {
-
-
     #aboutus-content {
         display: flex;
         flex-direction: row;
@@ -329,7 +350,7 @@ footer p {
 @media screen and (min-width: 992px) {
 
     /* General */
-    p {
+    body {
         font-size: 120%;
     }
 
@@ -355,7 +376,7 @@ footer p {
 @media screen and (min-width: 1200px) {
 
     /* General */
-    p {
+    body {
         font-size: 140%;
     }
 }
