@@ -129,8 +129,8 @@ main hr {
     width: 100%;
 }
 
-/* About section */
-#about {
+/* About us section */
+#aboutus {
     padding: 10px;
     display: flex;
     flex-direction: column;
@@ -138,13 +138,13 @@ main hr {
 
 }
 
-#about-content {
+#aboutus-content {
     display: flex;
     flex-direction: column;
     align-items: center;
 }
 
-#about-img {
+#aboutus-img {
     background: url("../images/about-us.jpg") no-repeat center center/cover;
     height: 300px;
     width: 100%;
@@ -154,7 +154,7 @@ main hr {
     transform: scaleX(-1);
 }
 
-#about-text {
+#aboutus-text {
     width: 90vw;
 }
 
@@ -236,6 +236,8 @@ input::placeholder {
     transition-duration: 0.6s;
 }
 
+
+
 /* Footer */
 footer {
     background-color: #000000;
@@ -277,13 +279,13 @@ footer p {
 @media screen and (min-width: 576px) {
 
 
-    #about-content {
+    #aboutus-content {
         display: flex;
         flex-direction: row;
         justify-content: space-evenly;
     }
 
-    #about-text {
+    #aboutus-text {
         text-align: right;
         width: 50%;
     }
@@ -337,8 +339,8 @@ footer p {
         cursor: pointer;
     }
 
-    /* About section */
-    #about-text {
+    /* Aboutus section */
+    #aboutus-text {
         width: 60%;
     }
 
