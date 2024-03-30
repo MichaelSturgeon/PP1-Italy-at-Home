@@ -17,6 +17,7 @@ body {
 
 a {
     text-decoration: none;
+    color: inherit;
 }
 
 h2 {
@@ -56,10 +57,6 @@ header {
 header h1 {
     font-style: italic;
     font-size: 1.6rem;
-}
-
-header a {
-    color: inherit;
 }
 
 #menu {
@@ -148,12 +145,11 @@ main hr {
     width: 100%;
     max-height: 300px;
     max-width: 300px;
-    margin-bottom: 10px;
     transform: scaleX(-1);
 }
 
 #aboutus-text {
-    width: 90vw;
+    margin: 10px;
 }
 
 /* Recipes section */
@@ -170,13 +166,13 @@ main hr {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    margin-bottom: 10px;
+    margin-bottom: 50px;
 }
 
 #starters-links div,
 #mains-links div,
 #desserts-links div {
-    margin: 10px;
+    margin: 10px 10px 20px 10px;
     width: 200px;
     height: 250px;
 }
@@ -242,17 +238,23 @@ input::placeholder {
     margin: 0 0 15px 15px;
 }
 
+#about-recipe {
+    display: flex;
+    flex-direction: column;
+    margin-bottom:10px;
+    align-items: center;
+}
+
 #recipe-img {
     background: url("../images/bruschetta.jpg") no-repeat center center/cover;
     height: 300px;
     width: 100%;
     max-height: 300px;
     max-width: 300px;
-    margin-bottom: 10px;
 }
 
-#about-recipe {
-    margin-bottom: 10px;
+#recipe-description {
+    margin: 10px;
     text-align: justify;
 }
 
@@ -307,8 +309,18 @@ footer {
     }
 
     #aboutus-text {
-        text-align: right;
-        width: 50%;
+        width: 60%;
+    }
+
+    #about-recipe {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+    }
+    
+    /* Recipe info section */
+    #recipe-description {
+        width: 60%;
     }
 }
 
@@ -358,11 +370,6 @@ footer {
     #menu li:hover {
         background-color: #3a3a3a;
         cursor: pointer;
-    }
-
-    /* Aboutus section */
-    #aboutus-text {
-        width: 60%;
     }
 
     /* Signup section */
