@@ -177,7 +177,7 @@ main hr {
 #starters-recipes div,
 #mains-recipes div,
 #desserts-recipes div {
-    margin: 5px;
+    margin: 10px;
     width: 200px;
     height: 250px;
 }
@@ -187,7 +187,7 @@ main hr {
 }
 
 #recipes img {
-    height: 100%;
+    height: 230px;
     width: 100%;
     object-fit: cover;
     object-position: center;
