@@ -246,12 +246,14 @@ input::placeholder {
 }
 
 #recipe-img {
-    background: url("../images/bruschetta.jpg") no-repeat center center/cover;
     height: 300px;
     width: 100%;
     max-height: 300px;
     max-width: 300px;
+    object-fit: cover;
+    object-position: center;
 }
+    
 
 #recipe-description {
     margin: 10px;
@@ -383,7 +385,7 @@ footer {
 @media screen and (min-width: 1200px) {
 
     /* General */
-    body {
-        font-size: 140%;
-    }
+    /* body {
+        font-size: 130%;
+    } */
 }
