@@ -189,7 +189,6 @@ main hr {
     padding: 10px;
     display: flex;
     flex-direction: column;
-    text-align: center;
 }
 
 #form-container {
