@@ -156,6 +156,28 @@ main hr {
     margin: 10px;
 }
 
+#team-gallery {
+    display: flex;
+    flex-direction: column;    
+}
+
+#team-gallery>div {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+#team-gallery img {
+    height: 300px;
+    width: 100%;
+    max-height: 300px;
+    max-width: 200px;
+    object-fit: cover;
+    object-position: center;
+    filter: grayscale(100%);
+    margin: 10px 5px 0 5px;   
+}
+
 /* Recipes section */
 #recipes {
     padding: 10px;
@@ -209,7 +231,7 @@ main hr {
     display: flex;
     flex-direction: column;
     background: url("../images/fresh-veg.jpg")no-repeat center center/cover;    
-    padding: 10px 10px;
+    padding: 10px 0px;
 }
 
 #first-name,
