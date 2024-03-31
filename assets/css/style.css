@@ -40,6 +40,10 @@ h3 {
     display: none;
 }
 
+.align-center {
+    align-self: center;
+}
+
 /* Header */
 header {
     background-color: #000000;
@@ -129,6 +133,7 @@ main hr {
     display: flex;
     flex-direction: column;
     text-align: justify;
+    max-width: 1200px;
 
 }
 
@@ -157,6 +162,7 @@ main hr {
     display: flex;
     flex-direction: column;
     text-align: center;
+    max-width: 1200px;
 }
 
 #starters-links,
@@ -180,7 +186,7 @@ main hr {
     height: 230px;
     width: 100%;
     object-fit: cover;
-    object-position: center;
+    object-position: center;    
 }
 
 
@@ -189,18 +195,20 @@ main hr {
     padding: 10px;
     display: flex;
     flex-direction: column;
+    max-width: 650px;            
 }
 
-#form-container {
-    display: flex;
-    flex-direction: column;
-    align-items:center;  
+#form-promo-text {
+    text-align: center;   
+    background-color: #000000;
+    color: #fafafa;
+    padding: 10px 5px;
 }
 
 #signup-form {
     display: flex;
     flex-direction: column;
-    background-color: rgb(220, 220, 220);
+    background: url("../images/fresh-veg.jpg")no-repeat center center/cover;    
     padding: 10px 10px;
 }
 
@@ -209,7 +217,7 @@ main hr {
 #email-address {
     background-color: #fafafa;
     margin-top: 15px;
-    border-style: none;
+    border-style: solid 1px #000000;
     border-radius: 10px;
     padding: 5px 0 5px 10px;
     font-size: 120%;
@@ -309,6 +317,7 @@ footer {
 
 /* Media query: large or landscape phones (576px and up) */
 @media screen and (min-width: 576px) {
+    /* About us section */
     #aboutus-content {
         display: flex;
         flex-direction: row;
@@ -317,15 +326,14 @@ footer {
 
     #aboutus-text {
         width: 60%;
-    }
-
+    }    
+    
+    /* Recipe info section */
     #about-recipe {
         display: flex;
         flex-direction: row;
         justify-content: space-evenly;
     }
-    
-    /* Recipe info section */
     #recipe-description {
         width: 60%;
     }

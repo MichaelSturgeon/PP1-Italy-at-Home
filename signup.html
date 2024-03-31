@@ -53,26 +53,31 @@
         </section>
 
         <!-- Signup section -->
-        <section id="signup">
+        <section id="signup" class="align-center">
             <h2>Newsletter</h2>
             <hr>
-            <div id="form-container">
+            <div id="form-promo-text">
                 <p>Avoid that takeaway temptation, sign up to
                     our newsletter packed with inspiration and be the first to receive our delicious new recipes.
+
+                </p>
+                <br>
+                <p>
                     We're always working hard with our partners across the UK to provide our customers with the best
-                    value on fresh ingredients. In your weekly newsletter we'll send you vouchers to keep our
+                    value on fresh ingredients. In your weekly newsletter you'll recieve vouchers to help keep our
                     recipes as affordable as possible!
                 </p>
-                <form id="signup-form" method="POST" action="https://formdump.codeinstitute.net">
-                    <label class="hidden" for="first-name">Email</label>
-                    <input id="first-name" type="text" name="first_name" required placeholder="Fist Name">
-                    <label class="hidden" for="last-name">Email</label>
-                    <input id="last-name" type="text" name="last_name" required placeholder="Last Name">
-                    <label class="hidden" for="email-address">Email</label>
-                    <input id="email-address" type="text" name="email_address" required placeholder="Email Address">
-                    <button id="form-submit-button" type="submit">Let's Cook!</button>
-                </form>
             </div>
+            <form id="signup-form" method="POST" action="https://formdump.codeinstitute.net">
+                <label class="hidden" for="first-name">Email</label>
+                <input id="first-name" type="text" name="first_name" required placeholder="Fist Name" autocomplete="on">
+                <label class="hidden" for="last-name">Email</label>
+                <input id="last-name" type="text" name="last_name" required placeholder="Last Name" autocomplete="on">
+                <label class="hidden" for="email-address">Email</label>
+                <input id="email-address" type="text" name="email_address" required placeholder="Email Address"
+                    autocomplete="on">
+                <button id="form-submit-button" type="submit">Let's Cook!</button>
+            </form>
         </section>
     </main>
 
