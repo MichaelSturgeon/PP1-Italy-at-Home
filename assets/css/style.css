@@ -334,10 +334,6 @@ footer {
     margin: 10px 0;
 }
 
-#webpage-links a {
-    color: #3a3a3a;
-}
-
 /* Media query: large or landscape phones (576px and up) */
 @media screen and (min-width: 576px) {
     /* About us section */
