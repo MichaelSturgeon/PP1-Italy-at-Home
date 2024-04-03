@@ -28,7 +28,8 @@ h2 {
 
 h3 {
     text-align: center;
-    background-color: rgb(220, 220, 220);
+    background-color: #8f1d04;
+    color: #fafafa;
     margin: 5px 0;
 }
 
@@ -216,32 +217,40 @@ main hr {
     padding: 10px;
     display: flex;
     flex-direction: column;
-    max-width: 650px;            
+    max-width: 500px;
 }
 
 #form-promo-text {
     text-align: center;   
-    background-color: #000000;
+    background-color: #8f1d04;
+    border: solid 2px #000000;
+    border-bottom: none;
     color: #fafafa;
-    padding: 10px 5px;
+    font-size: 110%;
+    padding: 30px 5px 20px;
 }
 
 #signup-form {
     display: flex;
     flex-direction: column;
-    background: url("../images/fresh-veg.jpg")no-repeat center center/cover;    
-    padding: 10px 0px;
+    border: solid 2px #000000;
+    padding: 5px 5px 20px;         
+}
+
+#signup-form p {
+    text-align: justify;
+    font-size: 0.8rem;
 }
 
 #first-name,
 #last-name,
 #email-address {
     background-color: #fafafa;
-    margin-top: 15px;
-    border-style: solid 1px #000000;
-    border-radius: 10px;
-    padding: 5px 0 5px 10px;
-    font-size: 120%;
+    border: solid 2px #000000;
+    border-radius: 20px;    
+    padding: 10px;
+    margin-bottom: 5px; 
+    font-size: 1rem;
     font-family: inherit;
 }
 
@@ -250,13 +259,12 @@ input::placeholder {
 }
 
 #form-submit-button {
-    background-color: #000000;
+    background-color: #8f1d04;
     color: #fafafa;
-    margin-top: 10px;
-    border-style: none;
-    border-radius: 10px;
-    padding: 5px 70px;
-    font-size: 120%;
+    border: solid 2px #000000;
+    border-radius: 20px;
+    padding: 5px 10px;
+    font-size: 110%;
     font-family: inherit;
     transition-duration: 0.6s;
 }
@@ -330,6 +338,10 @@ footer {
     list-style-type: none;
     margin: 10px 0;
 }
+
+footer p {
+    font-size: 0.8rem;
+}
 /* End Footer */
 /* End Main */
 
@@ -379,7 +391,7 @@ footer {
 
     #menu>li {
         margin: 0;
-        padding: 0 1rem;
+        padding: 0 15px;
         height: 100%;
         display: flex;
         align-items: center;
@@ -400,13 +412,15 @@ footer {
     /* End General */
     /* Star Header */
     #menu li:hover {
-        background-color: rgb(220, 220, 220);
+        background-color: #8f1d04;
         cursor: pointer;
     }
     /* End Header */
     /* Start Signup */
     #form-submit-button:hover {
-        background-color: #3a3a3a;
+        background-color: #fafafa;
+        border-color: #8f1d04;
+        color: #8f1d04;
         cursor: pointer;
     }
     /* End Signup */
