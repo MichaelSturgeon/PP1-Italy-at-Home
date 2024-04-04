@@ -89,18 +89,23 @@ mouse, the links will change colour upon hovering over them.
   
 **Footer**: provides users with a secondary method for navigating throughout the website  
 without the need to scroll back up to the navbar. The footer also displays social media links  
-which will open in a new tab.  
+which will open in a new tab.
+
 **Hero video**: captures the user’s attention. The looping video features on all main pages  
 throughout the website, providing the user with basic controls allowing them to pause and  
 rewind at their leisure. This also works towards the site owner's goal of triggering a positive  
-emotional response from the user.  
+emotional response from the user.
+
 **White background**: provides users with a clean, simplistic view of the content, allowing the  
-vibrant colours of the site to stand out and attract the viewer. 
+vibrant colours of the site to stand out and attract the viewer.
+
 **Main content max-width**: on screens larger than 1200px, the main content will cease to  
 spread across the screen. This will keep the user’s focus on the centre of the page,  
-amongst the rest of the content.  
+amongst the rest of the content.
+
 **Recipe links**: open in a new tab, allowing the user to continue browsing the recipe page,  
 without losing track of their selected recipes.
+
 ### Features left to implement
 **Filter system**: allowing users to narrow down the recipes by category (once the website  
 has been populated with more recipes).  
@@ -206,32 +211,32 @@ my commits will show larger chunks of changed code than I intended.
 ## Deployment
 **Deploying a GitHub Repository via GitHub Pages**  
 This website is deployed using GitHub pages by following these steps:  
-- Login to GitHub.  
-- Click on the repository section and select the repository you wish to deploy.  
-- Click on **Settings** in the menu bar at the top.  
-- Then click **Pages** in the menu to the left.  
-- In the **Source** drop-down menu, select **deploy from branch**.  
-- In the **Branch** drop-down menu, select **Main**.  
-- Once the page has been reset, the following message should be displayed at the top of  
+1. Login to GitHub.  
+2. Click on the repository section and select the repository you wish to deploy.  
+3. Click on **Settings** in the menu bar at the top.  
+4. Then click **Pages** in the menu to the left.  
+5. In the **Source** drop-down menu, select **deploy from branch**.  
+6. In the **Branch** drop-down menu, select **Main**.  
+7. Once the page has been reset, the following message should be displayed at the top of  
 the GitHub **Pages section**. **"Your site is ready to be published at (Link to the GitHub  
 Page Web Address)"**. Note this link might take a while to appear.
   
 **Forking a GitHub Repository**  
 If you wish to make changes to a repository without affecting it, you can do this by  
 following these steps:  
-- Select the GitHub repository you wish to fork.  
-- Click **Fork** on the right-hand side of the menu at the top of the page.  
-- You will now have a copy of the repository, allowing you to make changes without affecting  
+1. Select the GitHub repository you wish to fork.  
+2. Click **Fork** on the right-hand side of the menu at the top of the page.  
+3. You will now have a copy of the repository, allowing you to make changes without affecting  
 the original.
 
 **Making a Local Clone**
-- Login to GitHub.  
-- Click on the repository section and select the repository you wish to clone.  
-- Click the **Code** button.  
-- Copy the repository URL.  
-- Open the Git Bash terminal.  
-- Type in **git clone**, then paste in the URL you copied.  
-- Press **Enter** to create a clone.    
+1. Login to GitHub.  
+2. Click on the repository section and select the repository you wish to clone.  
+3. Click the **Code** button.  
+4. Copy the repository URL.  
+5. Open the Git Bash terminal.  
+6. Type in **git clone**, then paste in the URL you copied.  
+7. Press **Enter** to create a clone.    
 
 ## Credits
 **Code**
