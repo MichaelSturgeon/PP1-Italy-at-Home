@@ -82,7 +82,7 @@ header h1 {
 nav {
     position: absolute;
     background-color: #000000;
-    color: #3a3a3a;
+    color: #838383;
     width: 100%;
     left: 0;
     padding: 0 1rem;
@@ -316,7 +316,7 @@ footer {
     flex-direction: column;
     text-align: center;
     height: 200px;
-    color: #3a3a3a;
+    color: #838383;
 }
 
 #social-networks {
