@@ -252,17 +252,17 @@ project.
 
 **Content**
 The recipes and dish origins were sourced from the following websites: 
-- **Bruschetta** recipe: inspiredtaste.net, themodernproper.com  
-- **Arancini** recipe: bonappetit.com, saucesandwich.com, masterclass.com  
-- **Caprese salad** recipe: eatandwalkitaly.it  
-- **Italian salad** recipe: tastefullygrace.com, lacucinaitaliana.com  
-- **Tagliatelle alla Bolognese** recipe: seasonedpioneers.com  
-- **Margherita pizza** recipe: cookieandkate.com, 11inchpizza.com  
-- **Pesto and mozzarella pasta** recipe: britannica.com, kitchenmason.com  
-- **Wild mushroom risotto** recipe: wiseguyshhi.com, themodernproper.com  
-- **Tiramisu** recipe: sallysbakingaddiction.com, carpediemtours.com  
-- **Pistachio cannoli** recipe: true-italian.com, pasta.com  
-- **Italian almond crostata** recipe: katethebaker.com, europastry.com 
+- **Bruschetta** recipe: [inspiredtaste.net](inspiredtaste.net), [themodernproper.com](themodernproper.com)  
+- **Arancini** [bonappetit.com](bonappetit.com), [saucesandwich.com](saucesandwich.com), [masterclass.com](masterclass.com)  
+- **Caprese salad** recipe: [eatandwalkitaly.it](eatandwalkitaly.it)  
+- **Italian salad** recipe: [tastefullygrace.com](tastefullygrace.com), [lacucinaitaliana.com](lacucinaitaliana.com)  
+- **Tagliatelle alla Bolognese** recipe: [seasonedpioneers.com](seasonedpioneers.com)  
+- **Margherita pizza** recipe: [cookieandkate.com](cookieandkate.com), [11inchpizza.com](11inchpizza.com)  
+- **Pesto and mozzarella pasta** recipe: [britannica.com](britannica.com), [kitchenmason.com](kitchenmason.com)  
+- **Wild mushroom risotto** recipe: [wiseguyshhi.com](wiseguyshhi.com), [themodernproper.com](themodernproper.com)  
+- **Tiramisu** recipe: [sallysbakingaddiction.com](sallysbakingaddiction.com), [carpediemtours.com](carpediemtours.com)  
+- **Pistachio cannoli** recipe: [true-italian.com](true-italian.com), [pasta.com](pasta.com)  
+- **Italian almond crostata** recipe: [katethebaker.com](katethebaker.com), [europastry.com](europastry.com) 
 
 **Media**
 The images for the project were sourced from:  
