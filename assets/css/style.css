@@ -149,7 +149,6 @@ main hr {
     width: 260px;
     min-height: 260px;
     min-width: 260px;
-    transform: scaleX(-1);
     align-self: center;
 }
 
