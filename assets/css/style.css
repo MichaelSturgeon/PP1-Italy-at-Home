@@ -283,8 +283,7 @@ input::placeholder {
 #about-recipe {
     display: flex;
     flex-direction: column;
-    margin-bottom:10px;
-    
+    margin-bottom:10px;    
 }
 
 #recipe-img {
@@ -294,6 +293,7 @@ input::placeholder {
     max-width: 300px;
     object-fit: cover;
     object-position: center;
+    align-self: center;
 }    
 
 #recipe-description {
@@ -353,19 +353,19 @@ footer p {
    }
    
     #aboutus-img {
-    float: left;
-    margin: 0 10px 0 0;
+        float: left;
+        margin: 0 10px 0 0;
     }
     /* End About Us */
     
     /* Start Recipe Info */
     #about-recipe {
-        display: flex;
-        flex-direction: row;
-        justify-content: space-evenly;
+        display: block;
     }
-    #recipe-description {
-        width: 60%;
+
+    #recipe-img {
+        float: left;
+        margin: 0 10px 0 0; 
     }
     /* End Recipe Info */
 }
