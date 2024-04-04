@@ -85,7 +85,8 @@ home page.
 the page links.  
 - **Tablets, laptops, and desktops**: The navbar makes use of the larger screen sizes and  
 displays the page links without the need for a hamburger menu. For devices that use a  
-mouse, the links will change colour upon hovering over them.  
+mouse, the links will change colour upon hovering over them.
+  
 **Footer**: provides users with a secondary method for navigating throughout the website  
 without the need to scroll back up to the navbar. The footer also displays social media links  
 which will open in a new tab.  
