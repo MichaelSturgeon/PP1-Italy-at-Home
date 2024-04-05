@@ -78,11 +78,9 @@ to better organise the page content and provide the user with the necessary brea
 ## Surface Plane
 ### Project Features
 ![Project key features on mobile](/documentation/features-mobile.png)
-
-*This image shoes the key features on mobile phones*
+*This image shows the key features on mobile phones*
 
 ![Project key features on desktop](/documentation/features-desktop.png)
-
 *This image shows the key features on desktops*
 
 **Navigation bar**: acts as the user's main method for moving around the site by allowing  
