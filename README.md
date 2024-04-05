@@ -78,10 +78,10 @@ to better organise the page content and provide the user with the necessary brea
 ## Surface Plane
 ### Project Features
 ![Project key features on mobile](/documentation/features-mobile.png)
-*This image shows the key features on mobile phones*
+*This image shows the key features on mobile phones - drop-down navbar, footer with social media and page links*
 
 ![Project key features on desktop](/documentation/features-desktop.png)
-*This image shows the key features on desktops*
+*This image shows the key features on desktops - navbar hover effect, content max width, simple white background*
 
 **Navigation bar**: acts as the user's main method for moving around the site by allowing  
 them to easily switch between pages, with the logo on the left and the page links on the  
