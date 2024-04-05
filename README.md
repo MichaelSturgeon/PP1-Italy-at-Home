@@ -78,9 +78,13 @@ to better organise the page content and provide the user with the necessary brea
 ## Surface Plane
 ### Project Features
 ![Project key features on mobile](/documentation/features-mobile.png)
+
 *This image shoes the key features on mobile phones*
+
 ![Project key features on desktop](/documentation/features-desktop.png)
+
 *This image shows the key features on desktops*
+
 **Navigation bar**: acts as the user's main method for moving around the site by allowing  
 them to easily switch between pages, with the logo on the left and the page links on the  
 right. The active link in the navbar will be coloured white, leaving all inactive links coloured  
