@@ -83,34 +83,34 @@ to better organise the page content and provide the user with the necessary brea
 ![Project key features on desktop](/documentation/features-desktop.png)
 *This image shows the key features on desktops - navbar hover effect, content max width, simple white background*
 
-**Navigation bar**: acts as the user's main method for moving around the site by allowing  
+- **Navigation bar**: acts as the user's main method for moving around the site by allowing  
 them to easily switch between pages, with the logo on the left and the page links on the  
 right. The active link in the navbar will be coloured white, leaving all inactive links coloured  
 grey to make for an unambiguous experience for the user. The logo acts as a link to the  
 home page.  
-- **Mobile phones**: The navbar presents a hamburger menu, which once pressed will reveal  
+  - **Mobile phones**: The navbar presents a hamburger menu, which once pressed will reveal  
 the page links.  
-- **Tablets, laptops, and desktops**: The navbar makes use of the larger screen sizes and  
+  - **Tablets, laptops, and desktops**: The navbar makes use of the larger screen sizes and  
 displays the page links without the need for a hamburger menu. For devices that use a  
 mouse, the links will change colour upon hovering over them.
   
-**Footer**: provides users with a secondary method for navigating throughout the website  
+- **Footer**: provides users with a secondary method for navigating throughout the website  
 without the need to scroll back up to the navbar. The footer also displays social media links  
 which will open in a new tab.
 
-**Hero video**: captures the user’s attention. The looping video features on all main pages  
+- **Hero video**: captures the user’s attention. The looping video features on all main pages  
 throughout the website, providing the user with basic controls allowing them to pause and  
 rewind at their leisure. This also works towards the site owner's goal of triggering a positive  
 emotional response from the user.
 
-**White background**: provides users with a clean, simplistic view of the content, allowing the  
+- **White background**: provides users with a clean, simplistic view of the content, allowing the  
 vibrant colours of the site to stand out and attract the viewer.
 
-**Main content max-width**: on screens larger than 1200px, the main content will cease to  
+- **Main content max-width**: on screens larger than 1200px, the main content will cease to  
 spread across the screen. This will keep the user’s focus on the centre of the page,  
 amongst the rest of the content.
 
-**Recipe links**: open in a new tab, allowing the user to continue browsing the recipe page,  
+- **Recipe links**: open in a new tab, allowing the user to continue browsing the recipe page,  
 without losing track of their selected recipes.
 
 ![Recipe page layout on tablets](/documentation/caprase-salad-recipe-ipad-air.png)
@@ -120,16 +120,16 @@ without losing track of their selected recipes.
 *This image shows the recipe page layout on mobiles*
 
 ### Features left to implement
-**Filter system**: allowing users to narrow down the recipes by category (once the website  
+- **Filter system**: allowing users to narrow down the recipes by category (once the website  
 has been populated with more recipes).
 
-**Looping hero images**: that advertise the website's most popular recipes, providing  
+- **Looping hero images**: that advertise the website's most popular recipes, providing  
 users with a direct link to the recipe in question.
 
-**Recipe description box**: that users can toggle to get a brief description of a recipe  
+- **Recipe description box**: that users can toggle to get a brief description of a recipe  
 before opening it in a new tab.
 
-**Recipe page links**: that will be displayed in the navbar, allowing users to quickly jump to  
+- **Recipe page links**: that will be displayed in the navbar, allowing users to quickly jump to  
 section on the page.
 
 ## Technologies Used
