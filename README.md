@@ -113,6 +113,12 @@ amongst the rest of the content.
 **Recipe links**: open in a new tab, allowing the user to continue browsing the recipe page,  
 without losing track of their selected recipes.
 
+![Recipe page layout on tablets](/documentation/caprase-salad-recipe-ipad-air.png)
+*This image shows the recipe page layout on tablets*
+
+![Recipe page layout on mobile](/documentation/arancini-recipe-pixel7.png)
+*This image shows the recipe page layout on mobiles*
+
 ### Features left to implement
 **Filter system**: allowing users to narrow down the recipes by category (once the website  
 has been populated with more recipes).
@@ -125,13 +131,6 @@ before opening it in a new tab.
 
 **Recipe page links**: that will be displayed in the navbar, allowing users to quickly jump to  
 section on the page.
-![Recipe page layout on tablets](/documentation/caprase-salad-recipe-ipad-air.png)
-
-*This image shows the recipe page layout on tablets*
-
-![Recipe page layout on mobile](/documentation/arancini-recipe-pixel7.png)
-
-*This image shows the recipe page layout on mobiles*
 
 ## Technologies Used
 - **HTML**: used as the building blocks to structure the web pages.    
