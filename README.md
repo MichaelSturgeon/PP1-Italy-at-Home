@@ -175,7 +175,7 @@ I also field tested my site on several devices, which include:
 - [Home page results](/documentation/index.html-validator-noerror.png)
 - [Recipes page results](/documentation/recipes.html-validator.png)
 - [Sign-up page results](/documentation/signup.html-validator.png)
-- [CCSS results](/documentation/css-validator.png)
+- [CSS results](/documentation/css-validator.png)
   
 *Additional html validation images can be found in the documentation folder*
 
