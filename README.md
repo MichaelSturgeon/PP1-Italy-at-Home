@@ -77,7 +77,9 @@ to better organise the page content and provide the user with the necessary brea
 ## Surface Plane
 ### Project Features
 ![Project key features on mobile](/documentation/features-mobile.png)
+*This image shoes the key features on mobile phones*
 ![Project key features on desktop](/documentation/features-desktop.png)
+*This image shows the key features on desktops*
 **Navigation bar**: acts as the user's main method for moving around the site by allowing  
 them to easily switch between pages, with the logo on the left and the page links on the  
 right. The active link in the navbar will be coloured white, leaving all inactive links coloured  
@@ -165,10 +167,11 @@ I also field tested my site on several devices, which include:
 - iPhone 11  
 
 **Validation**
-[Home page results](/documentation/index.html-validator-noerror.png)
-[Recipes page results](/documentation/recipes.html-validator.png)
-[Sign-up page results](/documentation/signup.html-validator.png)
-[CCSS results](/documentation/css-validator.png)
+- [Home page results](/documentation/index.html-validator-noerror.png)
+- [Recipes page results](/documentation/recipes.html-validator.png)
+- [Sign-up page results](/documentation/signup.html-validator.png)
+- [CCSS results](/documentation/css-validator.png)
+*Additional html validation images can be found in the documentation folder*
 
 **Detected bugs and solutions**  
 - The favicons were not displaying in the browser tab due to the recipe pages being  
@@ -195,7 +198,7 @@ changes the `/* Media query: large or landscape phones (576px and up) */` to tak
 on screens 500px and up instead.
 
 - W3C Markup Validator flagged up errors across all recipe pages due to a missing  
-header element. To fix this, I added h3 elements where needed and gave them a .hidden  
+header element. To fix this, I added `<h3>` elements where needed and gave them a .hidden  
 class. 
  
 - As part of the testing phase of the website, I used Google’s Lighthouse developer tool to  
