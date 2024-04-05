@@ -117,14 +117,23 @@ without losing track of their selected recipes.
 
 ### Features left to implement
 **Filter system**: allowing users to narrow down the recipes by category (once the website  
-has been populated with more recipes).  
+has been populated with more recipes).
+
 **Looping hero images**: that advertise the website's most popular recipes, providing  
-users with a direct link to the recipe in question.  
+users with a direct link to the recipe in question.
+
 **Recipe description box**: that users can toggle to get a brief description of a recipe  
-before opening it in a new tab.  
+before opening it in a new tab.
+
 **Recipe page links**: that will be displayed in the navbar, allowing users to quickly jump to  
 section on the page.
+![Recipe page layout on tablets](/documentation/caprase-salad-recipe-ipad-air.png)
 
+*This image shows the recipe page layout on tablets*
+
+![Recipe page layout on mobile](/documentation/arancini-recipe-pixel7.png)
+
+*This image shows the recipe page layout on mobiles*
 
 ## Technologies Used
 - **HTML**: used as the building blocks to structure the web pages.    
@@ -263,26 +272,26 @@ the original.
 
 **Content**
 The recipes and dish origins were sourced from the following websites: 
-- **Bruschetta** recipe: [inspiredtaste.net](inspiredtaste.net), [themodernproper.com](themodernproper.com)  
-- **Arancini** [bonappetit.com](bonappetit.com), [saucesandwich.com](saucesandwich.com), [masterclass.com](masterclass.com)  
-- **Caprese salad** recipe: [eatandwalkitaly.it](eatandwalkitaly.it)  
-- **Italian salad** recipe: [tastefullygrace.com](tastefullygrace.com), [lacucinaitaliana.com](lacucinaitaliana.com)  
-- **Tagliatelle alla Bolognese** recipe: [seasonedpioneers.com](seasonedpioneers.com)  
-- **Margherita pizza** recipe: [cookieandkate.com](cookieandkate.com), [11inchpizza.com](11inchpizza.com)  
-- **Pesto and mozzarella pasta** recipe: [britannica.com](britannica.com), [kitchenmason.com](kitchenmason.com)  
-- **Wild mushroom risotto** recipe: [wiseguyshhi.com](wiseguyshhi.com), [themodernproper.com](themodernproper.com)  
-- **Tiramisu** recipe: [sallysbakingaddiction.com](sallysbakingaddiction.com), [carpediemtours.com](carpediemtours.com)  
-- **Pistachio cannoli** recipe: [true-italian.com](true-italian.com), [pasta.com](pasta.com)  
-- **Italian almond crostata** recipe: [katethebaker.com](katethebaker.com), [europastry.com](europastry.com) 
+- **Bruschetta** recipe: [inspiredtaste.net](www.inspiredtaste.net), [themodernproper.com](www.themodernproper.com)  
+- **Arancini** [bonappetit.com](www.bonappetit.com), [saucesandwich.com](www.saucesandwich.com), [masterclass.com](www.masterclass.com)  
+- **Caprese salad** recipe: [eatandwalkitaly.it](www.eatandwalkitaly.it)  
+- **Italian salad** recipe: [tastefullygrace.com](www.tastefullygrace.com), [lacucinaitaliana.com](www.lacucinaitaliana.com)  
+- **Tagliatelle alla Bolognese** recipe: [seasonedpioneers.com](www.seasonedpioneers.com)  
+- **Margherita pizza** recipe: [cookieandkate.com](www.cookieandkate.com), [11inchpizza.com](www.11inchpizza.com)  
+- **Pesto and mozzarella pasta** recipe: [britannica.com](www.britannica.com), [kitchenmason.com](www.kitchenmason.com)  
+- **Wild mushroom risotto** recipe: [wiseguyshhi.com](www.wiseguyshhi.com), [themodernproper.com](www.themodernproper.com)  
+- **Tiramisu** recipe: [sallysbakingaddiction.com](www.sallysbakingaddiction.com), [carpediemtours.com](www.carpediemtours.com)  
+- **Pistachio cannoli** recipe: [true-italian.com](www.true-italian.com), [pasta.com](pasta.com)  
+- **Italian almond crostata** recipe: [katethebaker.com](www.katethebaker.com), [europastry.com](www.europastry.com) 
 
 **Media**
 The images for the project were sourced from:  
-- [Unsplash](Unsplash)  
-- [Pixabay](Pixabay)  
-- [Pexels](Pexels)  
+- [Unsplash](www.unsplash.com)  
+- [Pixabay](www.pixabay.com)  
+- [Pexels](www.pexels.com)  
 
 The mp4 video file for the project was sourced from  
-- [Unsplash](Unsplash)
+- [Unsplash](www.unsplash.com)
 
 ## Acknowledgements  
 I would like to thank my partner for her unwavering patience and support throughout the  
