@@ -1,5 +1,5 @@
 # Italy at Home
-
+![Italy at Home project displayed on different screen sizes](/documentation/amiresponsive-responsive.png)
 ## Introduction
 Italy at Home is a website with authenticity at the heart of every recipe. This site will be
 useful to anyone looking to level up their dining experience, simply by following one of the
@@ -76,6 +76,8 @@ to better organise the page content and provide the user with the necessary brea
 
 ## Surface Plane
 ### Project Features
+![Project key features on mobile](/documentation/features-mobile.png)
+![Project key features on desktop](/documentation/features-desktop.png)
 **Navigation bar**: acts as the user's main method for moving around the site by allowing  
 them to easily switch between pages, with the logo on the left and the page links on the  
 right. The active link in the navbar will be coloured white, leaving all inactive links coloured  
@@ -163,9 +165,10 @@ I also field tested my site on several devices, which include:
 - iPhone 11  
 
 **Validation**
-[Home page results]()
-[Recipes page results]()
-[Sign-up page results]()
+[Home page results](/documentation/index.html-validator-noerror.png)
+[Recipes page results](/documentation/recipes.html-validator.png)
+[Sign-up page results](/documentation/signup.html-validator.png)
+[CCSS results](/documentation/css-validator.png)
 
 **Detected bugs and solutions**  
 - The favicons were not displaying in the browser tab due to the recipe pages being  
@@ -183,12 +186,12 @@ code I wanted to take effect.
 - Images across the website were taking too long to load, and knowing that once the  
 recipes page was populated with a larger category of recipe images this issue would  
 become more apparent. After some research, I came across this article explaining the  
-pros and cons of the webp file format (see credits). After converting the images on my  
-site to .webp I uploaded them as the primary image, which fixed the problem.
+pros and cons of the `.webp` file format (see credits). After converting the images on my  
+site to `.webp` I uploaded them as the primary image, which fixed the problem.
   
 - The images at the top of the About section and the recipe pages were left with too much  
 space around them on screen with widths between 520px and 590px. To fix this, I  
-changes the /* Media query: large or landscape phones (576px and up) */ to take effect  
+changes the `/* Media query: large or landscape phones (576px and up) */` to take effect  
 on screens 500px and up instead.
 
 - W3C Markup Validator flagged up errors across all recipe pages due to a missing  
@@ -243,8 +246,7 @@ the original.
 - The greyscale filter CSS rule was found on Stackoverflow.  
 - The autocomplete form input attribute was found on Stackoverflow.  
 - The HTML and CSS for the header and footer were taken from the Love Running project.  
-- Code Institute: Love Running Project was used to style both the header and footer of the  
-project.  
+- Code Institute: Love Running Project was used to style both the header and footer of the project.  
 - The icons in the footer were taken from Font Awesome  
 - The change in image file format was inspired by the following article:  
 [Adobe WebP Article](https://www.adobe.com/creativecloud/file-types/image/raster/webp-file.html#:~:text=What&#39;s%20the%20difference%20between%20WebP,than%20a%20comparable%20JPEG%20file).
@@ -266,14 +268,14 @@ The recipes and dish origins were sourced from the following websites:
 
 **Media**
 The images for the project were sourced from:  
-- Unsplash  
-- Pixabay  
-- Pexels
+- [Unsplash](Unsplash)  
+- [Pixabay](Pixabay)  
+- [Pexels](Pexels)  
 
 The mp4 video file for the project was sourced from  
-- Unsplash
+- [Unsplash](Unsplash)
 
 ## Acknowledgements  
 I would like to thank my partner for her unwavering patience and support throughout the  
-entirety of this project! Without her, this would not have been possible.
+entirety of this project! Without her, this would not have been possible!
 
