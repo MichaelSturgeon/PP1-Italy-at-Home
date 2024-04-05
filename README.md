@@ -176,6 +176,7 @@ I also field tested my site on several devices, which include:
 - [Recipes page results](/documentation/recipes.html-validator.png)
 - [Sign-up page results](/documentation/signup.html-validator.png)
 - [CCSS results](/documentation/css-validator.png)
+  
 *Additional html validation images can be found in the documentation folder*
 
 **Detected bugs and solutions**  
