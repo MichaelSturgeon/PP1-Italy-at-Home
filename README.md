@@ -272,26 +272,26 @@ the original.
 
 **Content**
 The recipes and dish origins were sourced from the following websites: 
-- **Bruschetta** recipe: [inspiredtaste.net](www.inspiredtaste.net), [themodernproper.com](www.themodernproper.com)  
-- **Arancini** [bonappetit.com](www.bonappetit.com), [saucesandwich.com](www.saucesandwich.com), [masterclass.com](www.masterclass.com)  
-- **Caprese salad** recipe: [eatandwalkitaly.it](www.eatandwalkitaly.it)  
-- **Italian salad** recipe: [tastefullygrace.com](www.tastefullygrace.com), [lacucinaitaliana.com](www.lacucinaitaliana.com)  
-- **Tagliatelle alla Bolognese** recipe: [seasonedpioneers.com](www.seasonedpioneers.com)  
-- **Margherita pizza** recipe: [cookieandkate.com](www.cookieandkate.com), [11inchpizza.com](www.11inchpizza.com)  
-- **Pesto and mozzarella pasta** recipe: [britannica.com](www.britannica.com), [kitchenmason.com](www.kitchenmason.com)  
-- **Wild mushroom risotto** recipe: [wiseguyshhi.com](www.wiseguyshhi.com), [themodernproper.com](www.themodernproper.com)  
-- **Tiramisu** recipe: [sallysbakingaddiction.com](www.sallysbakingaddiction.com), [carpediemtours.com](www.carpediemtours.com)  
-- **Pistachio cannoli** recipe: [true-italian.com](www.true-italian.com), [pasta.com](pasta.com)  
-- **Italian almond crostata** recipe: [katethebaker.com](www.katethebaker.com), [europastry.com](www.europastry.com) 
+- **Bruschetta** recipe: [inspiredtaste.net](https://www.inspiredtaste.net), [themodernproper.com](https://www.themodernproper.com)  
+- **Arancini** [bonappetit.com](https://www.bonappetit.com), [saucesandwich.com](https://www.saucesandwich.com), [masterclass.com](https://www.masterclass.com)  
+- **Caprese salad** recipe: [eatandwalkitaly.it](https://www.eatandwalkitaly.it)  
+- **Italian salad** recipe: [tastefullygrace.com](https://www.tastefullygrace.com), [lacucinaitaliana.com](https://www.lacucinaitaliana.com)  
+- **Tagliatelle alla Bolognese** recipe: [seasonedpioneers.com](https://www.seasonedpioneers.com)  
+- **Margherita pizza** recipe: [cookieandkate.com](https://www.cookieandkate.com), [11inchpizza.com](https://www.11inchpizza.com.au)  
+- **Pesto and mozzarella pasta** recipe: [britannica.com](https://www.britannica.com), [kitchenmason.com](https://www.kitchenmason.com)  
+- **Wild mushroom risotto** recipe: [wiseguyshhi.com](https://www.wiseguyshhi.com), [themodernproper.com](https://www.themodernproper.com)  
+- **Tiramisu** recipe: [sallysbakingaddiction.com](https://www.sallysbakingaddiction.com), [carpediemtours.com](https://www.carpediemtours.com)  
+- **Pistachio cannoli** recipe: [true-italian.com](https://www.true-italian.com), [pasta.com](https://www.pasta.com)  
+- **Italian almond crostata** recipe: [katethebaker.com](https://katethebaker.com/), [europastry.com](https://www.europastry.com) 
 
 **Media**
 The images for the project were sourced from:  
-- [Unsplash](www.unsplash.com)  
-- [Pixabay](www.pixabay.com)  
-- [Pexels](www.pexels.com)  
+- [Unsplash](https://www.unsplash.com)  
+- [Pixabay](https://www.pixabay.com)  
+- [Pexels](https://www.pexels.com)  
 
 The mp4 video file for the project was sourced from  
-- [Unsplash](www.unsplash.com)
+- [Unsplash](https://www.unsplash.com)
 
 ## Acknowledgements  
 I would like to thank my partner for her unwavering patience and support throughout the  
