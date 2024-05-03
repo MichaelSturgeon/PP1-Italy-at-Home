@@ -10,7 +10,7 @@ ages looking to develop their cooking skills.
 ## User Experience Design
 Throughout every stage of the development of this project, I have considered how all features
 play a role in creating a positive user experience. Every time I added a new feature,
- I've assessed how it positivity impacts the used. When creating this project I was significantly
+ I've assessed how it positivity impacts the user. When creating this project I was significantly
 influenced by the five planes of UXD.
 
 ## Strategy Plane
