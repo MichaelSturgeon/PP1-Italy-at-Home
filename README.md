@@ -5,7 +5,7 @@ Italy at Home is a website with authenticity at the heart of every recipe. This 
 useful to anyone looking to level up their dining experience, simply by following one of the
 user-friendly, step-by-step recipes. Therefore, the target audience of this site is users of all
 ages looking to develop their cooking skills.
-[View the project](https://michaelsturgeon.github.io/portfolio-project-1-italy-at-home/)
+[View the project](https://michaelsturgeon.github.io/PP1-Italy-at-Home/)
 
 ## User Experience Design
 Throughout every stage of the development of this project, I have considered how all features
